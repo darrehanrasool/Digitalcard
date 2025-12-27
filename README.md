@@ -51,5 +51,3 @@ A cutting-edge, visually stunning animated social card with voice explanation sy
 3. Set build command to `echo "No build required"`
 4. Set publish directory to `/` (root)
 5. Click Create - your site will be deployed automatically
-
-## File Structure
