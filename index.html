@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.ico" type="image/icon">
+    <title>Dar Rehan Rasool | Digital Connection Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="particle-field"></div>
+        <div class="gradient-blob blob-1"></div>
+        <div class="gradient-blob blob-2"></div>
+        ~ <div class="gradient-blob blob-3"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Snowflake Animation -->
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+    </div>
+
+    <!-- Main Container -->
+    <main class="main-container">
+        <!-- Voice Control (Minimal) -->
+        <div class="voice-control-minimal">
+            <button id="voice-toggle" class="voice-btn" aria-label="Toggle voice guide">
+                <i class="fas fa-headset"></i>
+            </button>
+            <div class="voice-status">
+                <span id="voice-status-text">Ready</span>
+            </div>
+        </div>
+
+        <!-- Social Card -->
+        <section class="social-card">
+            <!-- Profile Header -->
+            <header class="profile-header">
+                <div class="profile-avatar">
+                    <div class="avatar-circle">
+                        <div class="avatar-inner">
+                            <div class="avatar-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="avatar-glow"></div>
+                        </div>
+                        <div class="avatar-ring ring-1"></div>
+                        <div class="avatar-ring ring-2"></div>
+                    </div>
+                </div>
+
+                <div class="profile-info">
+                    <h1 class="profile-name">
+                        <span class="name-gradient">Dar Rehan Rasool</span>
+                    </h1>
+                    <p class="profile-title">Digital Creator & Developer</p>
+                    <div class="profile-tagline">
+                        <span class="typing-text">Building connections through technology</span>
+                        <span class="typing-cursor">|</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Voice Welcome -->
+            <div class="voice-welcome">
+                <div class="sound-wave">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <p id="welcome-text" class="welcome-message">Welcome to my digital hub. Connect with me across
+                    platforms.</p>
+            </div>
+
+            <!-- Social Links Grid -->
+            <div class="social-links-grid">
+                <!-- Row 1 -->
+                <a href="https://www.youtube.com/@darrehanrasool" target="_blank" class="social-link-card youtube"
+                    data-platform="youtube">
+                    <div class="social-link-content">
+                        <div class="social-icon-wrapper">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <div class="social-link-info">
+                            <h3>YouTube</h3>
+                            <p>Tech tutorials & content</p>
+                        </div>
+                    </div>
+                    <div class="social-link-hover"></div>
+                </a>
+
+                <a href="https://github.com/darrehanrasool" target="_blank" class="social-link-card github"
+                    data-platform="github">
+                    <div class="social-link-content">
+                        <div class="social-icon-wrapper">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="social-link-info">
+                            <h3>GitHub</h3>
+                            <p>Code repositories</p>
+                        </div>
+                    </div>
+                    <div class="social-link-hover"></div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/darrehanrasool/" target="_blank" class="social-link-card linkedin"
+                    data-platform="linkedin">
+                    <div class="social-link-content">
+                        <div class="social-icon-wrapper">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="social-link-info">
+                            <h3>LinkedIn</h3>
+                            <p>Professional network</p>
+                        </div>
+                    </div>
+                    <div class="social-link-hover"></div>
+                </a>
+
+                <!-- Row 2 -->
+                <a href="https://peerlist.io/darrehanrasool" target="_blank" class="social-link-card peerlist"
+                    data-platform="peerlist">
+                    <div class="social-link-content">
+                        <div class="social-icon-wrapper">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <div class="social-link-info">
+                            <h3>Peerlist</h3>
+                            <p>Professional community</p>
+                        </div>
+                    </div>
+                    <div class="social-link-hover"></div>
+                </a>
+
+                <a href="https://orcid.org/0009-0004-6426-5195" target="_blank" class="social-link-card orcid"
+                    data-platform="orcid">
+                    <div class="social-link-content">
+                        <div class="social-icon-wrapper">
+                            <i class="fab fa-orcid"></i>
+                        </div>
+                        <div class="social-link-info">
+                            <h3>ORCID</h3>
+                            <p>Research profile</p>
+                        </div>
+                    </div>
+                    <div class="social-link-hover"></div>
+                </a>
+
+                <a href="https://bsky.app/profile/darrehanrasool.bsky.social" target="_blank"
+                    class="social-link-card bluesky" data-platform="bluesky">
+                    <div class="social-link-content">
+                        <div class="social-icon-wrapper">
+                            <i class="fas fa-feather-alt"></i>
+                        </div>
+                        <div class="social-link-info">
+                            <h3>Bluesky</h3>
+                            <p>Decentralized social</p>
+                        </div>
+                    </div>
+                    <div class="social-link-hover"></div>
+                </a>
+
+                <!-- Row 3 -->
+                <a href="https://mastodon.social/@darrehanrasool" target="_blank" class="social-link-card mastodon"
+                    data-platform="mastodon">
+                    <div class="social-link-content">
+                        <div class="social-icon-wrapper">
+                            <i class="fab fa-mastodon"></i>
+                        </div>
+                        <div class="social-link-info">
+                            <h3>Mastodon</h3>
+                            <p>Fediverse network</p>
+                        </div>
+                    </div>
+                    <div class="social-link-hover"></div>
+                </a>
+
+                <a href="https://x.com/darrehanrasool" target="_blank" class="social-link-card twitter"
+                    data-platform="twitter">
+                    <div class="social-link-content">
+                        <div class="social-icon-wrapper">
+                            <i class="fab fa-x-twitter"></i>
+                        </div>
+                        <div class="social-link-info">
+                            <h3>X / Twitter</h3>
+                            <p>Microblogging</p>
+                        </div>
+                    </div>
+                    <div class="social-link-hover"></div>
+                </a>
+
+                <a href="https://www.threads.com/@darrehanrasool" target="_blank" class="social-link-card threads"
+                    data-platform="threads">
+                    <div class="social-link-content">
+                        <div class="social-icon-wrapper">
+                            <i class="fas fa-comment-dots"></i>
+                        </div>
+                        <div class="social-link-info">
+                            <h3>Threads</h3>
+                            <p>Text-based network</p>
+                        </div>
+                    </div>
+                    <div class="social-link-hover"></div>
+                </a>
+
+                <!-- Row 4 -->
+                <a href="https://www.instagram.com/darrehanrasool" target="_blank" class="social-link-card instagram"
+                    data-platform="instagram">
+                    <div class="social-link-content">
+                        <div class="social-icon-wrapper">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="social-link-info">
+                            <h3>Instagram</h3>
+                            <p>Visual content</p>
+                        </div>
+                    </div>
+                    <div class="social-link-hover"></div>
+                </a>
+
+                <a href="https://www.facebook.com/dar.rehan.rasool" target="_blank" class="social-link-card facebook"
+                    data-platform="facebook">
+                    <div class="social-link-content">
+                        <div class="social-icon-wrapper">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="social-link-info">
+                            <h3>Facebook</h3>
+                            <p>Social network</p>
+                        </div>
+                    </div>
+                    <div class="social-link-hover"></div>
+                </a>
+
+                <!-- Blog (Placeholder) -->
+                <a href="#" class="social-link-card blog" data-platform="blog">
+                    <div class="social-link-content">
+                        <div class="social-icon-wrapper">
+                            <i class="fas fa-blog"></i>
+                        </div>
+                        <div class="social-link-info">
+                            <h3>Blog</h3>
+                            <p>Coming soon</p>
+                        </div>
+                    </div>
+                    <div class="social-link-hover"></div>
+                </a>
+            </div>
+
+            <!-- Animated Stats -->
+            <div class="animated-stats">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-value">12</div>
+                        <div class="stat-label">Platforms</div>
+                    </div>
+                    <div class="stat-wave"></div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-value">Global</div>
+                        <div class="stat-label">Reach</div>
+                    </div>
+                    <div class="stat-wave"></div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-value">Instant</div>
+                        <div class="stat-label">Connect</div>
+                    </div>
+                    <div class="stat-wave"></div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="card-footer">
+                <div class="footer-content">
+                    <p class="footer-text">
+                        <i class="fas fa-circle-notch fa-spin"></i>
+                        Connected across the digital ecosystem
+                    </p>
+                </div>
+            </footer>
+        </section>
+
+        <!-- Floating Particles -->
+        <div class="floating-elements">
+            <div class="floating-element el-1">◈</div>
+            <div class="floating-element el-2">◉</div>
+            <div class="floating-element el-3">◇</div>
+            <div class="floating-element el-4">○</div>
+            <div class="floating-element el-5">▢</div>
+        </div>
+    </main>
+
+    <!-- Audio Element -->
+    <audio id="welcome-audio" preload="auto">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-software-interface-start-2574.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Scripts -->
+    <script src="js/voice.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
