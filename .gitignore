@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .DS_Store
 =======
 # This .gitignore is appropriate for repositories deployed to GitHub Pages and using
@@ -19,4 +18,3 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
->>>>>>> 852e39082ea582256db26a6fa88e6be94a943bde
