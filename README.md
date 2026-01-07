@@ -5,6 +5,7 @@ A cutting-edge, visually stunning animated social card with voice explanation sy
 ## Features
 
 ### 🎨 Visual Design
+
 - **3D Animated Background** with floating shapes and dynamic grid
 - **Advanced CSS Animations** including floating, rotating, and gradient effects
 - **Responsive Design** that works perfectly on all devices
@@ -12,12 +13,14 @@ A cutting-edge, visually stunning animated social card with voice explanation sy
 - **Particle System** with floating animated elements
 
 ### 🔊 Voice Explanation System
+
 - **Welcome Message** with text-to-speech technology
 - **Platform Descriptions** when hovering over social links
 - **Interactive Voice Controls** with toggle and mute buttons
 - **Real-time Voice Status** indicator
 
 ### 🚀 Interactive Elements
+
 - **Ripple Click Effects** on all interactive elements
 - **Hover Animations** with bounce and scale effects
 - **Parallax Background** that responds to mouse movement
@@ -25,6 +28,7 @@ A cutting-edge, visually stunning animated social card with voice explanation sy
 - **Pulse and Glow Effects** throughout the interface
 
 ### 📱 Social Platforms Included
+
 - YouTube
 - GitHub
 - LinkedIn
@@ -39,6 +43,7 @@ A cutting-edge, visually stunning animated social card with voice explanation sy
 ## Deployment Instructions
 
 ### GitHub Pages
+
 1. Create a new repository on GitHub
 2. Upload all files from this project
 3. Go to repository Settings > Pages
@@ -46,6 +51,7 @@ A cutting-edge, visually stunning animated social card with voice explanation sy
 5. Click Save - your site will be live at `https://[username].github.io/[repository-name]/`
 
 ### Render (Static Site)
+
 1. Create a new Static Site on Render
 2. Connect your GitHub repository
 3. Set build command to `echo "No build required"`
