@@ -4,345 +4,229 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digital Connection Hub</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <title>Dar Rehan Rasool - Digital Hub</title>
+  <link rel="stylesheet" href="/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="icon" href="./assets/icon/wechat.svg">
 </head>
 
 <body>
-  <!-- Animated Background -->
-  <div class="animated-bg">
-    <div class="particle-field" id="particleField"></div>
-    <div class="gradient-orb orb-1"></div>
-    <div class="gradient-orb orb-2"></div>
-    <div class="gradient-orb orb-3"></div>
-    <div class="mesh-gradient"></div>
-    <div class="grid-overlay"></div>
-  </div>
+  <div class="page-wrapper">
+    <!-- Profile Header -->
+    <header class="profile-header">
+      <div class="cover-image">
+        <!-- User will replace with their cover image -->
+        <img src="./assets/images/Banner.png" alt="Cover" class="cover-img">
+        <div class="cover-overlay"></div>
+      </div>
 
-  <!-- Main Container -->
-  <main class="main-container">
-    <!-- Digital Card -->
-    <section class="digital-card">
-      <!-- Card Glow Effect -->
-      <div class="card-glow"></div>
-
-      <!-- Profile Header -->
-      <header class="profile-header">
-        <div class="profile-avatar">
-          <div class="avatar-container">
-            <div class="avatar-inner">
-              <div class="avatar-icon">
-                <i class="fas fa-code"></i>
-              </div>
-              <div class="avatar-particles">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            </div>
-            <div class="avatar-ring ring-1"></div>
-            <div class="avatar-ring ring-2"></div>
-            <div class="avatar-ring ring-3"></div>
+      <div class="profile-container">
+        <div class="profile-photo-wrapper">
+          <div class="profile-photo">
+            <!-- User will replace with their profile photo -->
+            <img src="./assets/images/Header2.png" alt="Dar Rehan Rasool" class="profile-img">
           </div>
         </div>
 
         <div class="profile-info">
-          <h1 class="profile-name">
-            <span class="name-text" data-text="Dar Rehan Rasool">Dar Rehan Rasool</span>
-          </h1>
-          <p class="profile-title">
-            <span class="title-icon">⚡</span>
-            Digital Creator & Developer
-            <span class="title-icon">⚡</span>
-          </p>
-          <div class="profile-tagline">
-            <span class="typing-text" id="typingText"></span>
-            <span class="typing-cursor">|</span>
-          </div>
-        </div>
-
-        <!-- Status Badge -->
-        <div class="status-badge">
-          <span class="status-dot"></span>
-          <span class="status-text">Available for collaboration</span>
-        </div>
-      </header>
-
-      <!-- Interactive Banner -->
-      <div class="interactive-banner">
-        <div class="banner-text">Connect Across Platforms</div>
-        <div class="banner-waves">
-          <div class="wave"></div>
-          <div class="wave"></div>
-          <div class="wave"></div>
+          <h1 class="profile-name">Dar Rehan Rasool</h1>
+          <p class="profile-role">Digital Creator & Developer</p>
+          <p class="profile-bio" id="animatedBio"></p>
         </div>
       </div>
+    </header>
 
-      <!-- Social Links Grid -->
-      <div class="social-links-grid">
-        <!-- YouTube -->
-        <a href="https://www.youtube.com/@darrehanrasool" target="_blank" class="social-link youtube"
-          data-platform="YouTube">
-          <div class="link-content">
-            <div class="link-icon">
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Quick Intro -->
+      <section class="intro-section">
+        <div class="intro-card">
+          <div class="intro-icon">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <h2>Let's Connect</h2>
+          <p>Choose your preferred platform to connect with me. I'm active across multiple channels and always open to
+            meaningful conversations and collaborations.</p>
+        </div>
+      </section>
+
+      <!-- Social Platforms -->
+      <section class="platforms-section">
+        <h2 class="section-heading">Connect With Me</h2>
+
+        <div class="platforms-grid">
+          <!-- YouTube -->
+          <a href="https://www.youtube.com/@darrehanrasool" target="_blank" class="platform-link youtube">
+            <div class="platform-icon">
               <i class="fab fa-youtube"></i>
-              <div class="icon-glow"></div>
             </div>
-            <div class="link-info">
+            <div class="platform-content">
               <h3>YouTube</h3>
-              <p>Tech Content</p>
+              <p>Tech & Creative Content</p>
             </div>
-          </div>
-          <div class="link-hover-effect"></div>
-          <div class="link-particles"></div>
-        </a>
+            <i class="fas fa-arrow-right platform-arrow"></i>
+          </a>
 
-        <!-- GitHub -->
-        <a href="https://github.com/darrehanrasool" target="_blank" class="social-link github" data-platform="GitHub">
-          <div class="link-content">
-            <div class="link-icon">
+          <!-- GitHub -->
+          <a href="https://github.com/darrehanrasool" target="_blank" class="platform-link github">
+            <div class="platform-icon">
               <i class="fab fa-github"></i>
-              <div class="icon-glow"></div>
             </div>
-            <div class="link-info">
+            <div class="platform-content">
               <h3>GitHub</h3>
-              <p>Code Projects</p>
+              <p>Code & Projects</p>
             </div>
-          </div>
-          <div class="link-hover-effect"></div>
-          <div class="link-particles"></div>
-        </a>
+            <i class="fas fa-arrow-right platform-arrow"></i>
+          </a>
 
-        <!-- LinkedIn -->
-        <a href="https://www.linkedin.com/in/darrehanrasool/" target="_blank" class="social-link linkedin"
-          data-platform="LinkedIn">
-          <div class="link-content">
-            <div class="link-icon">
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/darrehanrasool/" target="_blank" class="platform-link linkedin">
+            <div class="platform-icon">
               <i class="fab fa-linkedin-in"></i>
-              <div class="icon-glow"></div>
             </div>
-            <div class="link-info">
+            <div class="platform-content">
               <h3>LinkedIn</h3>
-              <p>Professional</p>
+              <p>Professional Network</p>
             </div>
-          </div>
-          <div class="link-hover-effect"></div>
-          <div class="link-particles"></div>
-        </a>
+            <i class="fas fa-arrow-right platform-arrow"></i>
+          </a>
 
-        <!-- Peerlist -->
-        <a href="https://peerlist.io/darrehanrasool" target="_blank" class="social-link peerlist"
-          data-platform="Peerlist">
-          <div class="link-content">
-            <div class="link-icon">
-              <i class="fas fa-user-friends"></i>
-              <div class="icon-glow"></div>
-            </div>
-            <div class="link-info">
-              <h3>Peerlist</h3>
-              <p>Community</p>
-            </div>
-          </div>
-          <div class="link-hover-effect"></div>
-          <div class="link-particles"></div>
-        </a>
-
-        <!-- ORCID -->
-        <a href="https://orcid.org/0009-0004-6426-5195" target="_blank" class="social-link orcid" data-platform="ORCID">
-          <div class="link-content">
-            <div class="link-icon">
-              <i class="fab fa-orcid"></i>
-              <div class="icon-glow"></div>
-            </div>
-            <div class="link-info">
-              <h3>ORCID</h3>
-              <p>Research</p>
-            </div>
-          </div>
-          <div class="link-hover-effect"></div>
-          <div class="link-particles"></div>
-        </a>
-
-        <!-- Bluesky -->
-        <a href="https://bsky.app/profile/darrehanrasool.bsky.social" target="_blank" class="social-link bluesky"
-          data-platform="Bluesky">
-          <div class="link-content">
-            <div class="link-icon">
-              <i class="fas fa-cloud"></i>
-              <div class="icon-glow"></div>
-            </div>
-            <div class="link-info">
-              <h3>Bluesky</h3>
-              <p>Social</p>
-            </div>
-          </div>
-          <div class="link-hover-effect"></div>
-          <div class="link-particles"></div>
-        </a>
-
-        <!-- Mastodon -->
-        <a href="https://mastodon.social/@darrehanrasool" target="_blank" class="social-link mastodon"
-          data-platform="Mastodon">
-          <div class="link-content">
-            <div class="link-icon">
-              <i class="fab fa-mastodon"></i>
-              <div class="icon-glow"></div>
-            </div>
-            <div class="link-info">
-              <h3>Mastodon</h3>
-              <p>Fediverse</p>
-            </div>
-          </div>
-          <div class="link-hover-effect"></div>
-          <div class="link-particles"></div>
-        </a>
-
-        <!-- X/Twitter -->
-        <a href="https://x.com/darrehanrasool" target="_blank" class="social-link twitter" data-platform="X">
-          <div class="link-content">
-            <div class="link-icon">
-              <i class="fab fa-x-twitter"></i>
-              <div class="icon-glow"></div>
-            </div>
-            <div class="link-info">
-              <h3>X / Twitter</h3>
-              <p>Updates</p>
-            </div>
-          </div>
-          <div class="link-hover-effect"></div>
-          <div class="link-particles"></div>
-        </a>
-
-        <!-- Threads -->
-        <a href="https://www.threads.com/@darrehanrasool" target="_blank" class="social-link threads"
-          data-platform="Threads">
-          <div class="link-content">
-            <div class="link-icon">
-              <i class="fas fa-at"></i>
-              <div class="icon-glow"></div>
-            </div>
-            <div class="link-info">
-              <h3>Threads</h3>
-              <p>Conversations</p>
-            </div>
-          </div>
-          <div class="link-hover-effect"></div>
-          <div class="link-particles"></div>
-        </a>
-
-        <!-- Instagram -->
-        <a href="https://www.instagram.com/darrehanrasool" target="_blank" class="social-link instagram"
-          data-platform="Instagram">
-          <div class="link-content">
-            <div class="link-icon">
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/darrehanrasool" target="_blank" class="platform-link instagram">
+            <div class="platform-icon">
               <i class="fab fa-instagram"></i>
-              <div class="icon-glow"></div>
             </div>
-            <div class="link-info">
+            <div class="platform-content">
               <h3>Instagram</h3>
               <p>Visual Stories</p>
             </div>
-          </div>
-          <div class="link-hover-effect"></div>
-          <div class="link-particles"></div>
-        </a>
+            <i class="fas fa-arrow-right platform-arrow"></i>
+          </a>
 
-        <!-- Facebook -->
-        <a href="https://www.facebook.com/dar.rehan.rasool" target="_blank" class="social-link facebook"
-          data-platform="Facebook">
-          <div class="link-content">
-            <div class="link-icon">
+          <!-- X/Twitter -->
+          <a href="https://x.com/darrehanrasool" target="_blank" class="platform-link twitter">
+            <div class="platform-icon">
+              <i class="fab fa-x-twitter"></i>
+            </div>
+            <div class="platform-content">
+              <h3>X (Twitter)</h3>
+              <p>Quick Updates</p>
+            </div>
+            <i class="fas fa-arrow-right platform-arrow"></i>
+          </a>
+
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/dar.rehan.rasool" target="_blank" class="platform-link facebook">
+            <div class="platform-icon">
               <i class="fab fa-facebook-f"></i>
-              <div class="icon-glow"></div>
             </div>
-            <div class="link-info">
+            <div class="platform-content">
               <h3>Facebook</h3>
-              <p>Network</p>
+              <p>Community</p>
             </div>
-          </div>
-          <div class="link-hover-effect"></div>
-          <div class="link-particles"></div>
-        </a>
+            <i class="fas fa-arrow-right platform-arrow"></i>
+          </a>
 
-        <!-- Blog -->
-        <a href="#" class="social-link blog coming-soon" data-platform="Blog">
-          <div class="link-content">
-            <div class="link-icon">
-              <i class="fas fa-blog"></i>
-              <div class="icon-glow"></div>
+          <!-- Threads -->
+          <a href="https://www.threads.com/@darrehanrasool" target="_blank" class="platform-link threads">
+            <div class="platform-icon">
+              <i class="fas fa-at"></i>
             </div>
-            <div class="link-info">
+            <div class="platform-content">
+              <h3>Threads</h3>
+              <p>Conversations</p>
+            </div>
+            <i class="fas fa-arrow-right platform-arrow"></i>
+          </a>
+
+          <!-- Mastodon -->
+          <a href="https://mastodon.social/@darrehanrasool" target="_blank" class="platform-link mastodon">
+            <div class="platform-icon">
+              <i class="fab fa-mastodon"></i>
+            </div>
+            <div class="platform-content">
+              <h3>Mastodon</h3>
+              <p>Fediverse</p>
+            </div>
+            <i class="fas fa-arrow-right platform-arrow"></i>
+          </a>
+
+          <!-- Bluesky -->
+          <a href="https://bsky.app/profile/darrehanrasool.bsky.social" target="_blank" class="platform-link bluesky">
+            <div class="platform-icon">
+              <i class="fas fa-cloud"></i>
+            </div>
+            <div class="platform-content">
+              <h3>Bluesky</h3>
+              <p>Decentralized Social</p>
+            </div>
+            <i class="fas fa-arrow-right platform-arrow"></i>
+          </a>
+
+          <!-- Peerlist -->
+          <a href="https://peerlist.io/darrehanrasool" target="_blank" class="platform-link peerlist">
+            <div class="platform-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <div class="platform-content">
+              <h3>Peerlist</h3>
+              <p>Professional Community</p>
+            </div>
+            <i class="fas fa-arrow-right platform-arrow"></i>
+          </a>
+
+          <!-- ORCID -->
+          <a href="https://orcid.org/0009-0004-6426-5195" target="_blank" class="platform-link orcid">
+            <div class="platform-icon">
+              <i class="fab fa-orcid"></i>
+            </div>
+            <div class="platform-content">
+              <h3>ORCID</h3>
+              <p>Research Profile</p>
+            </div>
+            <i class="fas fa-arrow-right platform-arrow"></i>
+          </a>
+
+          <!-- Blog - Coming Soon -->
+          <div class="platform-link blog coming-soon">
+            <div class="platform-icon">
+              <i class="fas fa-pen-nib"></i>
+            </div>
+            <div class="platform-content">
               <h3>Blog</h3>
               <p>Coming Soon</p>
             </div>
-          </div>
-          <div class="link-hover-effect"></div>
-          <div class="link-particles"></div>
-        </a>
-      </div>
-
-      <!-- Stats Section -->
-      <div class="stats-section">
-        <div class="stat-item">
-          <div class="stat-icon">
-            <i class="fas fa-globe"></i>
-          </div>
-          <div class="stat-data">
-            <div class="stat-number" data-target="12">0</div>
-            <div class="stat-label">Platforms</div>
+            <i class="fas fa-clock platform-arrow"></i>
           </div>
         </div>
+      </section>
 
-        <div class="stat-item">
-          <div class="stat-icon">
-            <i class="fas fa-network-wired"></i>
-          </div>
-          <div class="stat-data">
-            <div class="stat-number">Global</div>
-            <div class="stat-label">Reach</div>
-          </div>
+      <!-- Stats -->
+      <section class="stats-section">
+        <div class="stat-card">
+          <div class="stat-number" data-count="11">0</div>
+          <div class="stat-label">Active Platforms</div>
         </div>
-
-        <div class="stat-item">
-          <div class="stat-icon">
-            <i class="fas fa-bolt"></i>
-          </div>
-          <div class="stat-data">
-            <div class="stat-number">24/7</div>
-            <div class="stat-label">Connected</div>
-          </div>
+        <div class="stat-card">
+          <div class="stat-number">24/7</div>
+          <div class="stat-label">Available</div>
         </div>
-      </div>
+        <div class="stat-card">
+          <div class="stat-number">∞</div>
+          <div class="stat-label">Connections</div>
+        </div>
+      </section>
+    </main>
 
-      <!-- Footer -->
-      <footer class="card-footer">
-        <div class="footer-divider"></div>
-        <p class="footer-text">
-          <i class="fas fa-heart pulse-icon"></i>
-          Building the future, one connection at a time
-        </p>
-        <div class="footer-year">© 2026</div>
-      </footer>
-    </section>
-
-    <!-- Floating Elements -->
-    <div class="floating-shapes">
-      <div class="float-shape shape-1">◆</div>
-      <div class="float-shape shape-2">●</div>
-      <div class="float-shape shape-3">■</div>
-      <div class="float-shape shape-4">▲</div>
-      <div class="float-shape shape-5">★</div>
-      <div class="float-shape shape-6">◈</div>
-    </div>
-  </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2026 Dar Rehan Rasool. All rights reserved.</p>
+    </footer>
+  </div>
 
   <script src="script.js"></script>
 </body>
